@@ -1,0 +1,94 @@
+.download_page {
+    display: flex;
+    justify-content: center;
+    height: auto;
+    margin-bottom: 20rem;
+    margin-top: 30px;
+}
+.download_page_con{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 1200px;
+    h1 {
+        font-size: 36px;
+        font-weight: 700;
+        margin: 0;
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+    .intro_picture{
+        width: 866px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .img_{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-top: 50px;
+        p {
+            font-size: 18px;
+            font-weight: 700;
+            margin: 0;
+            padding: 0;
+            margin-top: 1rem;
+        }
+        img {
+            width: 300px;
+            height: auto;
+        }
+        &:hover{
+            cursor: pointer;
+            transform: scale(1.1);
+        }
+        
+    }
+    .download_text{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        h1 {
+            font-size: 32px;
+            font-weight: 600;
+            margin: 0;
+            padding: 0;
+            margin-bottom: 1rem;
+            margin-top: 2rem;
+        }
+    }
+    .download_detail{
+        display: flex;
+        justify-content: space-between;
+        width: 90%;
+        margin-top: 12px;
+        margin-bottom: 7px;
+    }
+    hr{
+        width: 90%;
+    }
+    .download_all{
+        display: flex;
+        justify-content: flex-end;
+        width: 90%;
+        margin-top: 20px;
+        margin-bottom: 7px;
+        a {
+            text-decoration: none;
+            color: #000;
+            font-size: 20px;
+            font-weight: 600;
+            margin: 0;
+            padding: 0;
+            &:hover{
+                color: #dc1a1a;
+            }
+        }
+    }
+
+}
